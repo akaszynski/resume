@@ -1,0 +1,188 @@
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+\usepackage[empty]{fullpage}
+\usepackage{bibentry}
+\usepackage{hyperref}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.80}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins to 0.5in on all sides
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+  \bibliographystyle{plain}
+
+\begin{document}
+
+  \nobibliography{resume}
+  \vspace{-6.3in}
+
+
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+\textbf{\large Alexander A. Kaszynski}  & \\
+&  akascap@gmail.com \\
+Lafayette, Colorado  80026 & \url{https://github.com/akaszynski} \\
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+
+
+\resheading{Work Experience}
+\begin{itemize}
+\item
+  \ressubheading{Amazon Seller}{}{Owner}{Mar 2009 - Present}
+  \begin{itemize}
+    \resitem{\textbf{Amazon Seller \textit{Brooke's Books}:} Sole owner of Amazon textbook seller specializing in textbook purchasing and selling based on market timing and retail arbitrage.  Business grossed nearly \$1,000,000 yearly during the last 7 years of operation.  Seller storefront can be found at \url{https://www.amazon.com/sp?seller=A2TY5N2S51NHI6}}
+    \resitem{\textbf{Data Analysis:} Prior to \textit{keepa}, personally maintained large database of price and demand history for a variety of Amazon products.  Developed an automated workflow to determine ideal purchasing and selling times as well as identifying potential new products.  Transitioned to using \textit{keepa} for data acquisition and a cloud-based python database and auto-pricer using Google Cloud and Microsoft Azure.}
+    \resitem{\textbf{Management:} Managed several contractors to handle textbook repackaging over the past 6 years due to volume and demand.  Heavily integrated with fulfillment by Amazon and required additional labor to repackage, bin, store, and ship textbooks to a variety of fulfillment warehouses.}
+  \end{itemize}
+
+\item
+  \ressubheading{Full-Time Developer at ANSYS}{Boulder, CO}{Lead Software Developer}{June 2019 - Present}
+  \begin{itemize}
+    \resitem{\textbf{PyANSYS Project Developer:} Working with a talented group of developers at \textit{ANSYS} to create the latest generation in software interfaces to ANSYS products.  This includes, but is not limited to, cloud based software utilizing \textit{gRPC} with Protobuf support, Microsoft Azure, Kubernetes, C++, Python, and FORTRAN.  Software is currently deployed internally on several clusters on a closed basis.}
+  \end{itemize}
+
+\item
+  \ressubheading{Contractor Supporting AFRL, AFLCMC, and NASIC}{}{Principle Scientist and Software Engineer}{Apr 2014 - Present}
+  \begin{itemize}
+    \resitem{\textbf{Software: As-Manufactured Mesh Metamorphism:} Lead developer for \textit{femorph}, a patent pending revolutionary software that allows finite element model updating to new geometric configurations.  This tool is an enabler for the AFRL/RQTI HIT research agenda, AFRL Digital Twin program, and has transitioned to P\&W as an integral software to their manufacturing quality control efforts.  This is the first ever DoD software license agreement and \textit{femorph} includes yearly of license fees in excess of \$100K/yr.  See \url{https://www.wpafb.af.mil/News/Article-Display/Article/1503043/afrl-signs-first-of-its-kind-software-license-with-pratt-whitney/}}
+    \resitem{\textbf{Software: Automated Traveling Wave Excitation:} Developed software to interface using Python and ctypes to directly control laser position, drive hardware, and collect data for AFRL's Turbine Engine Fatigue Facility TWE.  Software bypasses original LabView software to directly control the National Instruments hardware using a Python interface through \textit{ctypes}.  Improved software gives more repeatable results and allows for the automation of batches that would have required hourly manual intervention. Software is regularly used for RQTI traveling wave testing and batch testing times have been reduced from from 5 days to 4 hours while improving accuracy.}
+    \resitem{\textbf{Research: Strain Energy Super-convergence:}  Estimates finite element model (FEM) eigenfrequency convergence using higher order interpolated elements.  Enables up to an order of magnitude improvement in frequency convergence at a smaller computational cost than refining a finite element mesh.  Software runs without mesh refinement, potentially eliminating the need for a grid convergence study.  Research was presented ASME IGTI 2015 and published in 2016.  Currently in use at AFRL to evaluate model convergence.}
+    \resitem{\textbf{Research: Mistuned Blade Tip Timing Limits:}  Wrote software that calculates blade tip timing (BTT) limits for engine testing using as-measured geometry.  Software evaluates the signal to noise ratio of blade to blade variations in probe measured stress to deflection ratios.  Enables user to place BTT spot probes in a more ideal location to improve mode detect-ability.  Research was presented at ASME IGTI and is in use in AFRL in conjunction with Gauge Map software.  Enables AEDC testing of damped F112s to support a \$1M RQTI effort.}
+    \resitem{\textbf{Research: Analytical Mistuning Identification:} Using personally developed mesh metamorphosis software, generated a FEM representative of an as-manufactured rotor and verified analytical blade response amplification by correlating the results from travel-ling wave excitation (TWE).  Obtained over 95\% correlation to sector mistuning, and for the first time in experimental research achieved positive correlation between a geometric mistuned model and experimental results.  Research presented at several engineering conferences, to include SciTech and ASME IGTI.}
+  \end{itemize}
+
+
+\item
+  \ressubheading{Captain, United States Air Force}{Wright-Patterson AFB, OH}{Principal Engineer}{Mar 2011 - Apr 2014}
+  \begin{itemize}
+    \resitem{Provided analysis of a variety of United States Air Force turbo-mechanical components, both fielded and in development, with an emphasis on stress limits, mistuning, and high cycle fatigue.  Developed advanced algorithms to reverse engineer and analyze as manufactured components and their analytical response due to deviation from the designed geometry.  Major accomplishments listed below.}
+    \resitem{\textbf{Automated reverse engineering through optical scanning:}  Pioneered an approach to modify an existing finite element model to match the surface geometry from a disorganized point cloud.  This enables the automated reverse engineering	of a variety of engineering structures through optical scanning.  Approach used to recreate a turbine using direct metal laser sintering.}
+    \resitem{\textbf{Performed IBR reverse engineering using novel approach:}  Analyzed a retired cruise missile IBR and calculated blade tip timing limits using as-manufactured geometry without existing CAD or drawings.  Determined fleet variability and maximum allowable engine operating conditions using an ANSYS and MATLAB batch written from scratch.}
+    \resitem{\textbf{Determined root cause of critical part failure:}  Tasked by USAF to generated a T-6 control linkage CAD and FEM to determine root cause for failure.  Generated CAD using schematics, verified geometry through optical scanning, and identified failure region through robust modeling.  Presented USAF with a modified design to eliminate failure region and reinforce structure to eliminate Class A aircraft mishaps.}
+  \end{itemize}
+
+\end{itemize}
+
+
+\resheading{Education}
+\begin{itemize}
+\item
+  \ressubheading{Air Force Institute of Technology}{Wright Patterson AFB, OH}{Master of Science in Mechanical Engineering}{Jul. 2009 - Mar. 2011}
+  \begin{itemize}
+    \resitem{Thesis: X-Hale: The Development of the Research Platform for the Validation of Nonlinear Aeroelastic Codes}
+    \resitem{Advisor: Lt Col Chris Shearer}
+    \resitem{GPA: 3.383}
+  \end{itemize}
+
+\item
+  \ressubheading{United States Air Force Academy}{Colorado Springs, CO}{Bachelor of Science in Astronautical Engineering}{Jun. 2005 - May. 2009}
+  \begin{itemize}
+    \resitem{Senior Capstone: Chief of Integration, Analysis, and Testing for FalconSAT-5}
+    \resitem{\emph{Distinguished Graduate}}
+    \resitem{GPA: 3.52}
+  \end{itemize}
+
+\end{itemize}
+
+
+\resheading{Skills}
+
+\begin{description}
+\item [Languages:] English (native speaker), German (B1)
+\item[Programming Languages:] Python, C/C{}\verb!++!, Bash Shell, \LaTeX, FORTRAN
+\item[Operating Systems:] Linux (Debian, Cent OS, RHEL), Windows, Mac OS X
+\item[Software:] Emacs, Tensorflow, NumPy, SciPy, PyQt, Git, ANSYS APDL, Cython, MATLAB, Solidworks, Geomagic Design X
+\end{description}
+
+\resheading{Open Source Projects}
+
+\begin{description}
+\item[\textbf{pyvista}] \url{https://github.com/pyvista/pyvista} \newline
+  Created python module to interface with VTK through numpy and direct array access. This simplifies mesh creation and plotting wrapping existing VTK classes.  This module can be used for scientific plotting for presentations and research papers as well as a supporting module for other mesh dependent Python modules.  Nearly 500 GitHub stars and used in a variety of closed and open source research and commercial projects.
+\item[\textbf{pyansys}] \url{https://github.com/akaszynski/pyansys} \newline
+  Python module to extract data from ANSYS binary files and to display them if vtk is installed.  Supports (.rst) and (.full) files.  Programmed in Python, Cython, and C.  In use by universities, Air Force Research Labs, and several commercial agencies.
+\item[\textbf{keepa}] \url{https://github.com/akaszynski/keepa} \newline
+Python module to interface to \url{https://keepa.com/} to query for Amazon product information and history.  Achieves fast and efficient queries using a non-synchronous server queries using multi-threading.
+\item[\textbf{pymeshfix}] \url{https://github.com/pyvista/pymeshfix} \newline
+Python/Cython wrapper of Marco Attene's award-winning MeshFix software. This module brings the speed of C++ with the portability and ease of installation of Python.
+\item[\textbf{tetgen}] \url{https://github.com/pyvista/tetgen} \newline
+Python interface to automated manifold tetrahedral generation.  Integrated with \textit{pyvista} and \textit{pymeshfix}, and \textit{pyansys} to generate all-tetrahedral meshes from surface scans for modern FEA solvers.
+\item[\textbf{PyACVD}] \url{https://github.com/pyvista/acvd} \newline
+  This module takes a vtk surface mesh (vtkPolyData) surface and returns a uniformly meshed surface also as a vtkPolyData.  It is based on research by S. Valette, and J. M. Chassery in Approximated Centroidal Voronoi Diagrams for Uniform Polygonal Mesh Coarsening.  An advanced version of the clustering module is a core piece of the global metamorphosis step for FEMORPH.
+
+\item[Summary:] \newline
+  Total monthly downloads as reported by PyPi are upwards of 50 thousand, and are rapidly increasing due to the collaboration of several new projects.
+\end{description}
+
+
+\resheading{Publications}
+
+\begin{description}
+
+  %% \nobibliography{resume}
+
+  \item[] \bibentry{Kaszynski2013}
+  \item[] \bibentry{Kaszynski2013_proc}
+  \item[] \bibentry{Kaszynski2014}
+  \item[] \bibentry{Kaszynski2015_exp}
+  \item[] \bibentry{Beck2015_val}
+  \item[] \bibentry{Beck2015_}
+  \item[] \bibentry{Kaszynski2015_1}
+  \item[] \bibentry{Kaszynski2015_2}
+  \item[] \bibentry{Kaszynski2015}
+  \item[] \bibentry{Beck2015}
+  \item[] \bibentry{Kaszynski2016}
+  \item[] \bibentry{Gillaugh2017}
+  \item[] \bibentry{Henry2017}
+  \item[] \bibentry{Clark2017}
+  \item[] \bibentry{Clark2018}
+  \item[] \bibentry{Beck2018}
+  \item[] \bibentry{Brown2018}
+  \item[] \bibentry{Brown2018_pro}
+  \item[] \bibentry{Beck2018_subspace}
+  \item[] \bibentry{Kaszynski2018}
+  \item[] \bibentry{Beck2018_dynamic}
+  \item[] \bibentry{Beck2018_modal}
+  \item[] \bibentry{Beck2018_modal_journal}
+  \item[] \bibentry{Gillaugh2018_art}
+  \item[] \bibentry{Gillaugh2018}
+  \item[] \bibentry{Gillaugh2019}
+
+\end{description}
+
+\resheading{Patents}
+\begin{description}
+\item[\textbf{Alexander A. Kaszynski}, Brown. M, Jeffrey.  2016.]
+Mesh metamorphasis software for as-manufactured, digitally modified, and Monte Carlo analysis.
+Patented USAF\textbackslash AFRL\textbackslash RQTI.
+\end{description}
+
+\resheading{Interests and Hobbies}
+\begin{description}
+Open source ``hobby'' programming, computer hobbyist (Linux & rasbperry pi), photovoltaics, technical and non-fiction literature, bicycle building and repair, and athletics (cycling, skiing, hiking, running, etc.).
+\end{description}
+
+
+
+\end{document}
