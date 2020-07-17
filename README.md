@@ -4,9 +4,8 @@ This is the public resume of Alexander Anthony Kaszynski.  Feel free
 to contact me at my personal email address at <akascap@gmail.com> for
 serious inquires.
 
-See my
-[resume](https://github.com/akaszynski/resume/blob/master/resume.pdf)
-for more details regarding my employment, education, and skills.
+See my [resume](https://akaszynski.github.io/resume/) for more details
+regarding my employment, education, and skills.
 
 
 ### Employment
