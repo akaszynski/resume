@@ -33,7 +33,7 @@
 \begin{document}
 
   \nobibliography{resume}
-  \vspace{-6.3in}
+  \vspace{-8.1in}
 
 
 \begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
@@ -48,13 +48,6 @@ Lafayette, Colorado  80026 & \url{https://github.com/akaszynski} \\
 
 \resheading{Work Experience}
 \begin{itemize}
-\item
-  \ressubheading{Amazon Seller}{}{Owner}{Mar 2009 - Present}
-  \begin{itemize}
-    \resitem{\textbf{Amazon Seller \textit{Brooke's Books}:} Sole owner of Amazon textbook seller specializing in textbook purchasing and selling based on market timing and retail arbitrage.  Business grossed nearly \$1,000,000 yearly during the last 7 years of operation.  Seller storefront can be found at \url{https://www.amazon.com/sp?seller=A2TY5N2S51NHI6}}
-    \resitem{\textbf{Data Analysis:} Prior to \textit{keepa}, personally maintained large database of price and demand history for a variety of Amazon products.  Developed an automated workflow to determine ideal purchasing and selling times as well as identifying potential new products.  Transitioned to using \textit{keepa} for data acquisition and a cloud-based python database and auto-pricer using Google Cloud and Microsoft Azure.}
-    \resitem{\textbf{Management:} Managed several contractors to handle textbook repackaging over the past 6 years due to volume and demand.  Heavily integrated with fulfillment by Amazon and required additional labor to repackage, bin, store, and ship textbooks to a variety of fulfillment warehouses.}
-  \end{itemize}
 
 \item
   \ressubheading{Full-Time Developer at ANSYS}{Boulder, CO}{Lead Software Developer}{June 2019 - Present}
@@ -72,6 +65,13 @@ Lafayette, Colorado  80026 & \url{https://github.com/akaszynski} \\
     \resitem{\textbf{Research: Analytical Mistuning Identification:} Using personally developed mesh metamorphosis software, generated a FEM representative of an as-manufactured rotor and verified analytical blade response amplification by correlating the results from travel-ling wave excitation (TWE).  Obtained over 95\% correlation to sector mistuning, and for the first time in experimental research achieved positive correlation between a geometric mistuned model and experimental results.  Research presented at several engineering conferences, to include SciTech and ASME IGTI.}
   \end{itemize}
 
+\item
+  \ressubheading{Amazon Seller}{}{Owner}{Mar 2009 - Aug 2020}
+  \begin{itemize}
+    \resitem{\textbf{Amazon Seller \textit{Brooke's Books}:} Sole owner of Amazon textbook seller specializing in textbook purchasing and selling based on market timing and retail arbitrage.  Business grossed nearly \$1,000,000 yearly during the last 7 years of operation.  Seller storefront can be found at \url{https://www.amazon.com/sp?seller=A2TY5N2S51NHI6}}
+    \resitem{\textbf{Data Analysis:} Prior to \textit{keepa}, personally maintained large database of price and demand history for a variety of Amazon products.  Developed an automated workflow to determine ideal purchasing and selling times as well as identifying potential new products.  Transitioned to using \textit{keepa} for data acquisition and a cloud-based python database and auto-pricer using Google Cloud and Microsoft Azure.}
+    \resitem{\textbf{Management:} Managed several contractors to handle textbook repackaging over the past 6 years due to volume and demand.  Heavily integrated with fulfillment by Amazon and required additional labor to repackage, bin, store, and ship textbooks to a variety of fulfillment warehouses.}
+  \end{itemize}
 
 \item
   \ressubheading{Captain, United States Air Force}{Wright-Patterson AFB, OH}{Principal Engineer}{Mar 2011 - Apr 2014}
@@ -120,7 +120,7 @@ Lafayette, Colorado  80026 & \url{https://github.com/akaszynski} \\
 \begin{description}
 \item[\textbf{pyvista}] \url{https://github.com/pyvista/pyvista} \newline
   Created python module to interface with VTK through numpy and direct array access. This simplifies mesh creation and plotting wrapping existing VTK classes.  This module can be used for scientific plotting for presentations and research papers as well as a supporting module for other mesh dependent Python modules.  Nearly 500 GitHub stars and used in a variety of closed and open source research and commercial projects.
-\item[\textbf{pyansys}] \url{https://github.com/akaszynski/pyansys} \newline
+\item[\textbf{pyansys}] \url{https://github.com/pyansys/pymapdl} \newline
   Python module to extract data from ANSYS binary files and to display them if vtk is installed.  Supports (.rst) and (.full) files.  Programmed in Python, Cython, and C.  In use by universities, Air Force Research Labs, and several commercial agencies.
 \item[\textbf{keepa}] \url{https://github.com/akaszynski/keepa} \newline
 Python module to interface to \url{https://keepa.com/} to query for Amazon product information and history.  Achieves fast and efficient queries using a non-synchronous server queries using multi-threading.
@@ -128,7 +128,7 @@ Python module to interface to \url{https://keepa.com/} to query for Amazon produ
 Python/Cython wrapper of Marco Attene's award-winning MeshFix software. This module brings the speed of C++ with the portability and ease of installation of Python.
 \item[\textbf{tetgen}] \url{https://github.com/pyvista/tetgen} \newline
 Python interface to automated manifold tetrahedral generation.  Integrated with \textit{pyvista} and \textit{pymeshfix}, and \textit{pyansys} to generate all-tetrahedral meshes from surface scans for modern FEA solvers.
-\item[\textbf{PyACVD}] \url{https://github.com/pyvista/acvd} \newline
+\item[\textbf{PyACVD}] \url{https://github.com/pyvista/pyacvd} \newline
   This module takes a vtk surface mesh (vtkPolyData) surface and returns a uniformly meshed surface also as a vtkPolyData.  It is based on research by S. Valette, and J. M. Chassery in Approximated Centroidal Voronoi Diagrams for Uniform Polygonal Mesh Coarsening.  An advanced version of the clustering module is a core piece of the global metamorphosis step for FEMORPH.
 
 \item[Summary:] \newline
@@ -168,6 +168,14 @@ Python interface to automated manifold tetrahedral generation.  Integrated with 
   \item[] \bibentry{Gillaugh2018_art}
   \item[] \bibentry{Gillaugh2018}
   \item[] \bibentry{Gillaugh2019}
+  \item[] \bibentry{Beck2019}
+  \item[] \bibentry{Brown2019}
+  \item[] \bibentry{Sullivan2019}
+  \item[] \bibentry{Gillaugh2020}
+  \item[] \bibentry{Gillaugh2020_force}
+  \item[] \bibentry{Brown2020}
+  \item[] \bibentry{Beck2020}
+
 
 \end{description}
 
