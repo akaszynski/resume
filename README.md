@@ -13,14 +13,15 @@ regarding my current and past employment, which is also summarized below.
 
 
 ### Employment
-I am currently fully employed as a lead software developer at
-[Ansys](https://www.ansys.com/) since June 2019.  I also have some
-additional persistent contract work with the [Air Force Research Laboratory](https://www.afrl.af.mil/)
-that includes maintenance of closed-source software I wrote and maintain from
-2011 and through today.  The software, FEMORPH, modifies finite element models
-to match as-manufactured geometry to create highly accurate geometric
-models.  The software has been licensed by [Pratt & Whitney](https://prattwhitney.com/)
-and is used for research and development by the Air Force Research Laboratory.  See:
+I am employed as a principal software engineer at
+[Ansys](https://www.ansys.com/) since June 2019.  I also maintain software for
+the [Air Force Research Laboratory](https://www.afrl.af.mil/), including the
+maintenance of closed-source software I developed in 2011 and continue to
+develop and maintain.  The software, FEMORPH, modifies finite element models to
+match as-manufactured geometry to create highly accurate geometric models.  The
+software has been licensed by [Pratt & Whitney](https://prattwhitney.com/) and
+is used for research and development by the Air Force Research Laboratory.
+See:
 
 - [US Air Force licenses modeling software to Pratt](https://www.aerospacetestinginternational.com/news/software/us-air-force-licenses-modeling-software-to-pratt.html)
 - [FEMORPH Section 801 Software License](https://federallabs.org/successes/awards/awards-gallery/2019/femorph-section-801-software-license-first-in-department-of)
