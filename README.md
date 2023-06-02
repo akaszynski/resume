@@ -2,8 +2,7 @@
 
 This is the public resume of Alexander Anthony Kaszynski.  Feel free
 to contact me at my personal email address at <akascap@gmail.com> for
-serious inquires regarding [FEMORPH](https://www.aerospacetestinginternational.com/news/software/us-air-force-licenses-modeling-software-to-pratt.html),
-or at <alexander.kaszynski@ansys.com> for questions related to [PyAnsys](https://github.com/pyansys).
+serious inquires regarding [FEMORPH](https://www.aerospacetestinginternational.com/news/software/us-air-force-licenses-modeling-software-to-pratt.html).
 
 See my [resume](https://akaszynski.github.io/resume/) for more details
 regarding my employment, education, and skills.
