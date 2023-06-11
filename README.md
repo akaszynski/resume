@@ -2,7 +2,7 @@
 
 This is the public resume of Alexander Anthony Kaszynski.  Feel free
 to contact me at my personal email address at <akascap@gmail.com> for
-serious inquires regarding [FEMORPH](https://www.aerospacetestinginternational.com/news/software/us-air-force-licenses-modeling-software-to-pratt.html).
+serious inquiries regarding [FEMORPH](https://www.aerospacetestinginternational.com/news/software/us-air-force-licenses-modeling-software-to-pratt.html).
 
 See my [resume](https://akaszynski.github.io/resume/) for more details
 regarding my employment, education, and skills.
@@ -45,7 +45,7 @@ papers](https://github.com/akaszynski/resume/tree/master/papers).
 Resumes generated using LaTeX and combined with ``pdftx``. The reasoning behind
 combining two resumes is I wasn't satisfied with a single page resume, nor was
 I happy with just a detailed (perhaps too detailed) resume. Combining these
-seems like the best option so employees can get a clear overview on a single
+seems like the best option so employers can get a clear overview on a single
 page, but can dive deeper into my background if they're interested without
 getting overwhelmed upfront.
 
