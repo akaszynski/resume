@@ -28,3 +28,9 @@
 # other profile pictures
 *.png
 *.jpg
+
+# tmp files
+first_page/resume_first_page-trim.pdf
+kaszynski_resume-full-qual.pdf
+kaszynski_resume.pdf
+resume-trim.pdf
